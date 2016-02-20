@@ -1,4 +1,4 @@
-FROM dlord/minecraft
+FROM dlord/minecraft:java8
 MAINTAINER John Paul Alcala jp@jpalcala.com
 
 ENV REGROWTH_URL http://ftb.cursecdn.com/FTB2/modpacks/Regrowth/0_9_1/RegrowthServer.zip
