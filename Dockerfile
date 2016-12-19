@@ -1,7 +1,7 @@
 FROM dlord/minecraft:java8
 MAINTAINER John Paul Alcala jp@jpalcala.com
 
-ENV REGROWTH_URL http://ftb.cursecdn.com/FTB2/modpacks/Regrowth/0_9_1/RegrowthServer.zip
+ENV REGROWTH_URL http://ftb.cursecdn.com/FTB2/modpacks/Regrowth/1_0_1/RegrowthServer.zip
 
 RUN curl -S $REGROWTH_URL -o /tmp/regrowth.zip && \
     unzip /tmp/regrowth.zip -d /opt/minecraft && \
